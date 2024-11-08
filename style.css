@@ -7,13 +7,13 @@
 }
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #F2F2F2;
-  font-size:1rem;
+  background-color: #f2f2f2;
+  font-size: 1rem;
 }
 .container {
   max-width: 60%;
   margin: 0 auto;
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   padding: 30px;
   border-radius: 1%;
   color: #333333;
@@ -29,47 +29,71 @@ img {
 header {
   text-align: center;
   padding: 10px;
-  background-color: #E3F2FD;
+  background-color: #e3f2fd;
   margin: 10px;
   border-radius: 5px;
 }
-.profile,.skills,.education,.experience,.language{
-  background-color: #E3F2FD;
+.profile,
+.skills,
+.education,
+.experience,
+.language {
+  background-color: #e3f2fd;
   padding: 10px;
   margin: 10px;
   border-radius: 5px;
 }
-a{
-  color: #2C3E50;
+a {
+  color: #2c3e50;
   text-decoration: none;
 }
-#btn{
+#btn {
   width: 200px;
   height: 50px;
   font-weight: 700;
   background-color: cadetblue;
-  border:none;
+  border: none;
   border-radius: 5px;
   position: fixed;
   right: 40px;
   bottom: 50px;
   cursor: pointer;
 }
-#btn:hover{
+#btn:hover {
   box-shadow: 0 0 10px cadetblue;
 }
-@media (max-width:770px) {
-  h1{
+@media (max-width: 770px) {
+  h1 {
     font-size: 1.5rem;
   }
-  h2{
+  h2 {
     font-size: 1.2rem;
   }
-  container{
-    max-width: 100%;
+  container {
+    max-width: 90%;
+    padding: 20px;
+  }
+  header {
     padding: 15px;
   }
-  section{
+
+  section {
     margin: 8px 0;
+  }
+  img {
+    width: 80px;
+    top: 20px;
+    right: 20px;
+  }
+  .profile,
+  .skills,
+  .education,
+  .experience,
+  .language {
+    padding: 15px;
+  }
+  #btn {
+    width: 100px;
+    height: 25px;
   }
 }
