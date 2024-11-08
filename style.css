@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+
+* {
+  margin: 0;
+
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #F2F2F2;
+  font-size:1rem;
+}
+.container {
+  max-width: 60%;
+  margin: 0 auto;
+  background-color: #F5F5F5;
+  padding: 30px;
+  border-radius: 1%;
+  color: #333333;
+}
+img {
+  width: 90px;
+  position: absolute;
+  top: 48px;
+  right: 350px;
+  border-radius: 50%;
+  padding-right: 5px;
+}
+header {
+  text-align: center;
+  padding: 10px;
+  background-color: #E3F2FD;
+  margin: 10px;
+  border-radius: 5px;
+}
+.profile,.skills,.education,.experience,.language{
+  background-color: #E3F2FD;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+a{
+  color: #2C3E50;
+  text-decoration: none;
+}
+#btn{
+  width: 200px;
+  height: 50px;
+  font-weight: 700;
+  background-color: cadetblue;
+  border:none;
+  border-radius: 5px;
+  position: fixed;
+  right: 40px;
+  bottom: 50px;
+  cursor: pointer;
+}
+#btn:hover{
+  box-shadow: 0 0 10px cadetblue;
+}
+@media (max-width:770) {
+  h1{
+    font-size: 1.5rem;
+  }
+  h2{
+    font-size: 1.2rem;
+  }
+  container{
+    max-width: 100%;
+    padding: 15px;
+  }
+  section{
+    margin: 8px 0;
+  }
+}
