@@ -58,7 +58,7 @@ a{
 #btn:hover{
   box-shadow: 0 0 10px cadetblue;
 }
-@media (max-width:770) {
+@media (max-width:770px) {
   h1{
     font-size: 1.5rem;
   }
